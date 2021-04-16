@@ -19,7 +19,7 @@
         "email" => $user['email']
 
     ];
-    header('Location: ../profile.php');
+    header('Location: ../index1.php');
 
 
   }else{
