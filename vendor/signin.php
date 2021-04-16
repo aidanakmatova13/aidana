@@ -19,11 +19,11 @@
         "email" => $user['email']
 
     ];
-    header('Location: ../index1.php');
+    header('Location: ../profile.php');
 
 
   }else{
     $_SESSION['message'] = 'incorrect login or password';
-    header('Location: ../index1.php');
+    header('Location: ../main.php');
   }
 ?>
