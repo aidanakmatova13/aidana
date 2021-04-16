@@ -24,6 +24,6 @@
 
   }else{
     $_SESSION['message'] = 'incorrect login or password';
-    header('Location: ../index.php');
+    header('Location: ../index1.php');
   }
 ?>
